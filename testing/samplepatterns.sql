@@ -1,0 +1,27 @@
+
+INSERT INTO kuamua_patterns (pattern_name, pattern, group_name, sub_group_name, owner_id) VALUES 
+  ('pat1', '{"Image": {"Width": [800]}}', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat2', '{"Image": { "Title": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat3', '{"Image": { "Width": [800], "IDs": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat4', '{"Foo": [ { "exists": false } ] }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat11', '{"Image": {"Width": [800]}}', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat12', '{"Image": { "Title": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat13', '{"Image": { "Width": [800], "IDs": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat14', '{"Foo": [ { "exists": false } ] }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat21', '{"Image": {"Width": [800]}}', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat22', '{"Image": { "Title": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat23', '{"Image": { "Width": [800], "IDs": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat24', '{"Foo": [ { "exists": false } ] }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat31', '{"Image": {"Width": [800]}}', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat32', '{"Image": { "Title": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat33', '{"Image": { "Width": [800], "IDs": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat34', '{"Foo": [ { "exists": false } ] }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat41', '{"Image": {"Width": [800]}}', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat42', '{"Image": { "Title": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat43', '{"Image": { "Width": [800], "IDs": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat44', '{"Foo": [ { "exists": false } ] }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat51', '{"Image": {"Width": [800]}}', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat52', '{"Image": { "Title": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat53', '{"Image": { "Width": [800], "IDs": [ { "exists": true } ] } }', 'autobroadcast', '', 'systemname-xyz-123'), 
+  ('pat54', '{"Foo": [ { "exists": false } ] }', 'autobroadcast', '', 'systemname-xyz-123');
+  

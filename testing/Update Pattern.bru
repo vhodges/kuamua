@@ -1,0 +1,27 @@
+meta {
+  name: Update Pattern
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:3000/patterns/27
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": 27,
+    "pattern_name": "pat100-1",
+    "pattern": "{New Patterns}",
+    "group_name": "autobroadcast",
+    "sub_group_name": "",
+    "owner_id": "systemname-xyz-123"
+  }
+  
+}
+
+vars:pre-request {
+  id: 27
+}

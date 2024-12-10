@@ -1,0 +1,22 @@
+meta {
+  name: Create Pattern
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3001/patterns/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "pattern_name": "pat100-1",
+    "pattern": "{*}",
+    "group_name": "autobroadcast",
+    "sub_group_name": "",
+    "owner_id": "systemname-xyz-123"
+  }
+  
+}
